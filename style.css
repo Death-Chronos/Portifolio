@@ -84,7 +84,7 @@ aside {
 }
 
 .perfil{
-    padding: 10px 0;
+    padding: 10px ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,8 +98,8 @@ a{
 
 .foto{
     border: rgb(19, 187, 238) solid;
-    height: 50%;
-    width: 50%;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     overflow: hidden;
 }
