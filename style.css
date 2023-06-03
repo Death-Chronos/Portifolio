@@ -7,7 +7,7 @@ body {
     grid-template-rows: 4fr 1fr;
     /*usar fr para Grid*/
     font-size: small;
-    color: rgb(100, 178, 247);
+    color: #AED6F9;
     background-color: rgb(50, 55, 68);
     font-family: Georgia, 'Times New Roman', Times, serif;
 
@@ -38,7 +38,7 @@ main .principal{
     flex-grow: 1;
     background: rgb(84, 85, 82);
     border-radius: 10px;
-    box-shadow: 4px 2px rgb(39, 37, 37);
+    box-shadow: 4px 2px #162838;
     text-align: center;
 }
 .projetos{
@@ -58,7 +58,7 @@ main .principal{
     flex-grow: 1;
     background: rgb(84, 85, 82);
     border-radius: 10px;
-    box-shadow: 4px 2px rgb(39, 37, 37);
+    box-shadow: 4px 2px #162838;
 
 }
 
@@ -80,7 +80,7 @@ aside {
     background: rgb(84, 85, 82);
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 4px 2px rgb(39, 37, 37);
+    box-shadow: 4px 2px #162838;
 }
 
 .perfil{
@@ -129,21 +129,27 @@ img{
     justify-content: center;
 
 }
-.titulo-habilidades{
-}
 
 .habilidade{
     flex-basis: auto;
     word-break: normal;
     color: black;
-    background: rgb(219, 110, 7);
+    background: #F7BE63;
     border-radius: 20px;
     padding: .2em;
     text-align: center;
 }
 
+ul{
+    font-size: smaller;
+    margin-left: 5px;
+}
+ul h4{
+    margin-bottom: 0px;
+}
 
 footer {
     grid-area: footer;
     text-align: center;
+    padding: 10px;
 }
